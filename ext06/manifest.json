@@ -1,0 +1,18 @@
+{
+   "manifest_version": 2,
+   "name": "ext06",
+   "version": "1.0",
+   "content_scripts": [
+		{
+			"matches": [ "https://www.amazon.com/*", "http://voodoolab.com/*" ],
+			"js": ["jquery-3.3.1.min.js", "jquery-ui.min.js", "jquery.contextMenu.min.js", "jquery.ui.position.min.js", "cp.js", "content.js"],
+			"css": ["jquery.contextMenu.css"]
+		}
+   ],
+   "permissions": ["jquery-3.3.1.min.js", "jquery-ui.min.js", "http://127.0.0.1:3000/ext"],
+   "web_accessible_resources": ["jquery-3.3.1.min.js", "jquery-ui.min.js", "http://127.0.0.1:3000/ext", "jquery.contextMenu.min.js", "jquery.ui.position.min.js"],
+   
+	"browser_action": {
+		"default_icon": "images/rr32.png"
+	}
+}
