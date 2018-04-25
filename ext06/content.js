@@ -24,34 +24,35 @@ $.contextMenu({
 		$txt.focus();
 		
 	},
+	
 	items: {
-		"edit": {"name": "Edit"}, //, "icon": "edit"
-		"cut": {"name": "Cut"}, //, "icon": "cut"
-		"sep1": "---------",
-		"quit": {"name": "Quit"}, //, "icon": "quit"
-		"sep2": "---------",
-		"fold1": {
-			"name": "Sub group", 
-			"items": {
-				"fold1-key1": {"name": "Foo bar"},
-				"fold2": {
-					"name": "Sub group 2", 
-					"items": {
-						"fold2-key1": {"name": "alpha"},
-						"fold2-key2": {"name": "bravo"},
-						"fold2-key3": {"name": "charlie"}
-					}
-				},
-				"fold1-key3": {"name": "delta"}
-			}
-		},
-		"fold1a": {
-			"name": "Other group", 
-			"items": {
-				"fold1a-key1": {"name": "echo"},
-				"fold1a-key2": {"name": "<h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> <h1>foxtrot</h1> "},
-				"fold1a-key3": {"name": "golf"}
-			}
-		}
+		"A": myDataA,
+		"B": myDataB,
+		"C": myDataC,
+		"D": myDataD,
+		"E": myDataE,
+		"F": myDataF,
+		"G": myDataG,
+		"H": myDataH,
+		"I": myDataI,
+		"J": myDataJ,
+		"K": myDataK,
+		"L": myDataL,
+		"M": myDataM,
+		"N": myDataN,
+		"O": myDataO,
+		"P": myDataP,
+		"Q": myDataQ,
+		"R": myDataR,
+		"S": myDataS,
+		"T": myDataT,
+		"U": myDataU,
+		"V": myDataV,
+		"W": myDataW,
+		"X": myDataX,
+		"Y": myDataY,
+		"Z": myDataZ,
+		"0-9": myData123
 	}
+	
 });

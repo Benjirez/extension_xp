@@ -5,7 +5,7 @@
    "content_scripts": [
 		{
 			"matches": [ "https://www.amazon.com/*", "http://voodoolab.com/*" ],
-			"js": ["jquery-3.3.1.min.js", "jquery-ui.min.js", "jquery.contextMenu.min.js", "jquery.ui.position.min.js", "cp.js", "content.js"],
+			"js": ["jquery-3.3.1.min.js", "jquery-ui.min.js", "jquery.contextMenu.min.js", "jquery.ui.position.min.js", "makes/a_make.js", "makes/b_make.js", "makes/c_make.js", "makes/d_make.js", "makes/e_make.js", "makes/f_make.js", "makes/g_make.js", "makes/h_make.js", "makes/i_make.js", "makes/j_make.js", "makes/k_make.js", "makes/l_make.js", "makes/m_make.js", "makes/n_make.js", "makes/o_make.js", "makes/p_make.js", "makes/q_make.js", "makes/r_make.js", "makes/s_make.js", "makes/t_make.js", "makes/u_make.js", "makes/v_make.js", "makes/w_make.js", "makes/x_make.js", "makes/y_make.js", "makes/z_make.js", "makes/123_make.js", "cp.js","content.js"],
 			"css": ["jquery.contextMenu.css"]
 		}
    ],
